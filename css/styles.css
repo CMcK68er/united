@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	font-size: 20px;
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 1.5;
+	background: rgb(245,245,245);
+}
+
+nav.navbar {
+	padding: 20px 10px;
+	background-color: #F9FCF4 !important;	
+}
+
+nav.navbar .navbar-nav a.nav-link { 
+	padding: 8px 20px; /*Sets the space aroumd a link*/
+  	color: #0088CC; /* Sets the link colour */
+  	text-align: center; 
+  	font-size: 1rem; /* Sets the link colour */
+  	
+} 
+nav.navbar .navbar-nav a.nav-link:hover {
+	color: black; 
+}
+nav.navbar .navbar-nav .active a.nav-link {
+	font-weight: bold;
+	color: black;
+    background: transparent;
+	border-bottom: 4px solid #FFB800;
+}
+
+nav.navbar a.navbar-brand {
+	color: black;
+}
+
+/*Form Styles */
+form.form-inline {
+	width: 30%;
+}
+
+
+form.form-inline input[type=search]  {
+	border-radius: 0;
+	width: 65%;
+	font-size: 0.85rem;
+	border: 1px solid #999;
+	margin: 0;
+	background: transparent;
+	max-width: 250px;
+}
+
+form.form-inline button[type=submit]  {
+	border: 1px solid #999;
+	color: #999;
+	width: 30%;
+	border-radius: 0;
+	padding: 7px 0;
+	font-size: 0.85rem;
+	margin-left: -6px;
+	max-width: 100px;
+}
+
+form.form-inline button[type=submit]:hover {
+	background: transparent;
+	color: black;
+}
+
+#carouselExampleIndicators1 img {
+	width: 100%; 
+	height: auto;
+}
+
+.row {
+	margin-top: 20px;
+}
+
+.mbi {
+margin-bottom: 20px;	
+}
+
+.card {
+	margin-bottom: 3px;
+}
+.card-header {
+	background: yellow;
+}
+
+.card-header a {
+	color: aliceblue;
+}
+
+h2.smaller {
+	font-size: 1.4rem;
+}
+
+video {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 1rem 0;
+}
+
+footer {
+	width: 100%;
+	
+}
+
+footer h2 {
+	
+}
+
+.footerL {
+	float: left;
+	padding: 0;
+}
+
+.footerR {
+		float: right;
+		text-align: right;
+	padding: 0;
+}
+@media screen and (max-width: 991px) {
+	
+	nav.navbar .navbar-nav a.nav-link { 
+	text-align: left;
+		width: 70%;
+		
+	}
+form.form-inline button[type=submit]  {	
+	display: none;
+	}
+	
+}
